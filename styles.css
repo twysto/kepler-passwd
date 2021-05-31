@@ -1,0 +1,60 @@
+body, main, .group, label, .group-input, input, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    font-family: Verdana;
+    font-size: 12;
+    color: rgba(255, 255, 255, 1);
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+    height: 63px;
+}
+
+.br {
+    height: 10px;
+}
+
+label {
+    margin-bottom: 5px;
+    height: 20px;
+}
+
+.group-input {
+    display: flex;
+    flex-direction: row;
+    width: 620px;
+}
+
+input {
+    padding: 5px;
+    margin-right: 5px;
+    width: 550px;
+    min-height: 25px;
+    line-height: 1.6;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(221, 221, 221, 1);
+    border-radius: 4px;
+    font-family: "Courier New";
+    text-align: center;
+}
+
+button {
+    width: 65px;
+    min-height: 25px;
+    line-height: 1.6;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(221, 221, 221, 1);
+    border-radius: 4px;
+    font-weight: bold;
+}
