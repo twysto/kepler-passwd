@@ -1,4 +1,7 @@
 # kepler-passwd
+
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/twysto/kepler-passwd)
+
 Kepler-Passwd is a small project which goal was to make my first steps into electron.
 
 Its aim is very simple.
